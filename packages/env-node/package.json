@@ -1,0 +1,5 @@
+{
+  "name": "env-node",
+  "main": "main.js",
+  "module": "module.js"
+}

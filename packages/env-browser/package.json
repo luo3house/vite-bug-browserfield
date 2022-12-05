@@ -1,0 +1,5 @@
+{
+  "name": "env-browser",
+  "main": "main.js",
+  "module": "module.js"
+}

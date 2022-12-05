@@ -1,0 +1,20 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/env-browser:
+    specifiers: {}
+
+  packages/env-entry:
+    specifiers:
+      env-browser: workspace:^
+      env-node: workspace:^
+    dependencies:
+      env-browser: link:../env-browser
+      env-node: link:../env-node
+
+  packages/env-node:
+    specifiers: {}

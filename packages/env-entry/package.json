@@ -1,0 +1,12 @@
+{
+  "name": "env-entry",
+  "main": "main.js",
+  "module": "module.js",
+  "browser": {
+    "env-node": "env-browser"
+  },
+  "dependencies": {
+    "env-browser": "workspace:^",
+    "env-node": "workspace:^"
+  }
+}

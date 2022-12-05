@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "env-entry": "workspace:^"
+    "@localenv/entry": "workspace:^"
   },
   "devDependencies": {
     "vite": "^3.2.4"

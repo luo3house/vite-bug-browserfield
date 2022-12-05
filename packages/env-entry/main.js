@@ -1,3 +1,3 @@
-import {current} from 'env-node'
+const current = require('@localenv/node').current
 
 module.exports = { current }

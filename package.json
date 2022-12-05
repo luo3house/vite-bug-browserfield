@@ -1,4 +1,7 @@
 {
   "name": "vite-bug-browserfield",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build"
+  }
 }

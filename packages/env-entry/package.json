@@ -1,12 +1,13 @@
 {
-  "name": "env-entry",
+  "name": "@localenv/entry",
   "main": "main.js",
   "module": "module.js",
+  "type": "module",
   "browser": {
-    "env-node": "env-browser"
+    "@localenv/node": "@localenv/browser"
   },
   "dependencies": {
-    "env-browser": "workspace:^",
-    "env-node": "workspace:^"
+    "@localenv/browser": "workspace:^",
+    "@localenv/node": "workspace:^"
   }
 }

@@ -1,5 +1,6 @@
 {
-  "name": "env-browser",
+  "name": "@localenv/browser",
   "main": "main.js",
-  "module": "module.js"
+  "module": "module.js",
+  "type": "module"
 }

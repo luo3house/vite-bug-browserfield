@@ -1,3 +1,30 @@
 # vite-bug-browserfield
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-a7fpa4)
+## Step to reproduce
+
+- `pnpm i`
+
+- `pnpm run build`
+
+- Checkout dist files.
+
+
+## Overview
+
+`./packages/rollup-starter/dist/index.js`
+
+```ts
+const current = 'browser';
+```
+
+`./packages/vite-starter/dist/index.js`
+
+```ts
+const current = "node";
+```
+
+`./packages/webpack-starter/dist/index.js`
+
+```ts
+const current = 'browser'
+```

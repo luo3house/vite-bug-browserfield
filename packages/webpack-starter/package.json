@@ -6,7 +6,7 @@
     "build": "esbuild --format=cjs --platform=node config.ts > config.js && webpack -c config.js"
   },
   "dependencies": {
-    "@localenv/entry": "workspace:^"
+    "env-entry": "workspace:^"
   },
   "devDependencies": {
     "@types/webpack": "^5.28.0",

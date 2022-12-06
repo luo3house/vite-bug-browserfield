@@ -1,3 +1,3 @@
-import { current } from "@localenv/entry"
+import { current } from "env-entry"
 
 console.log(current)

@@ -1,3 +1,3 @@
-import {current} from '@localenv/node'
+import {current} from 'env-node'
 
 export { current }
